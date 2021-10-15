@@ -1,0 +1,107 @@
+#race {
+  text-align: center;
+  background-color: #242021;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: #a2a2a2;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.btn {
+  padding: 5px 50px;
+}
+
+.racingTrack {
+  background-image: url("./img/raceTrack.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: repeat-x;
+  height: 50vh;
+}
+
+.car {
+  position: absolute;
+  display: block;
+  height: 40vh;
+  width: 17%;
+}
+
+#car1 {
+  bottom: 35%;
+}
+
+#car2 {
+  top: 35%;
+}
+
+.car1Info {
+  color: #ffebf7;
+  font-weight: bold;
+}
+.car2Info {
+  color: #ba0000;
+  font-weight: bold;
+}
+
+#counter {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counting {
+  background-color: rgba(0, 0, 0, 0.459);
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-size: 100px;
+  z-index: 11;
+}
+
+.flag {
+  position: absolute;
+  background-image: url(img/./finish.gif);
+  background-color: rgba(0, 0, 0, 0.459);
+  height: 100%;
+  width: 100%;
+  z-index: 111;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.result1,
+.result2 {
+  padding: 15px;
+  border: 2px solid white;
+  width: 100%;
+}
+
+.oldResultsCar1,
+.oldResultsCar2 {
+  border: 2px solid white;
+  width: 100%;
+  padding: 20px;
+}
+
+.oldResultsCar1 {
+  margin-top: 80px;
+}
+.oldResults {
+  display: none;
+}
